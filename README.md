@@ -2,6 +2,9 @@
 # Home:
 https://conan.io/
 
+# Doc:
+https://docs.conan.io/2/index.html
+
 # Guide:
 - [Conan 2.0 | C++ Package Manager - A detailed introduction](https://youtu.be/7sLeMVUo8Kg)
 - [Conan Package Manager for C++ in Practice](https://youtu.be/vAe9k0NJkw8)

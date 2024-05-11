@@ -5,4 +5,6 @@ conan profile path default
 
 conan install . --output-folder=build --build=missing
 
+conan config home
+
 conan profile show

@@ -4,3 +4,5 @@ conan profile detect --force
 conan profile path default
 
 conan install . --output-folder=build --build=missing
+
+conan profile show

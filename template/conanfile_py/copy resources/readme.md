@@ -16,3 +16,5 @@ class MyProject(ConanFile):
         dep = self.dependencies["dep_name"]
         copy(self, "*", dep.cpp_info.resdirs[0], os.path.join(self.source_folder, "assets"))
 ```
+
+For a complete example of how to import files from a package in the generate() method, you can refer to the blog post about using the Dear ImGui library <https://blog.conan.io/2019/06/26/An-introduction-to-the-Dear-ImGui-library.html>, which demonstrates how to import bindings for the library depending on the graphics API.

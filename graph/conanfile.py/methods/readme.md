@@ -13,6 +13,8 @@ class CompressorRecipe(ConanFile):
         cmake_layout(self)
 ```
 
+# [Use the validate() method to raise an error for non-supported configurations¶](https://docs.conan.io/2/tutorial/consuming_packages/the_flexibility_of_conanfile_py.html#use-the-validate-method-to-raise-an-error-for-non-supported-configurations)
+
 # [Use the generate() method to copy resources from packages¶](https://docs.conan.io/2/tutorial/consuming_packages/the_flexibility_of_conanfile_py.html#use-the-generate-method-to-copy-resources-from-packages)
 
 example:

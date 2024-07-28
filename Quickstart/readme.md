@@ -3,6 +3,7 @@
 https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html
 
 ## Initial setup commands:
+run after first install.
 ```
 conan profile detect --force
 ```

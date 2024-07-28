@@ -9,6 +9,7 @@ conan profile detect --force
 ```
 
 ## Project commands:
+run in source code dir for a project.
 ```
 conan install . --output-folder=build --build=missing
 cd build

@@ -15,6 +15,8 @@ class CompressorRecipe(ConanFile):
 
 # [Use the validate() method to raise an error for non-supported configurations¶](https://docs.conan.io/2/tutorial/consuming_packages/the_flexibility_of_conanfile_py.html#use-the-validate-method-to-raise-an-error-for-non-supported-configurations)
 
+>you can use it to perform checks of the input settings. If, for example, your project does not support armv8 architecture on macOS you can raise the ConanInvalidConfiguration exception to make Conan return with a special error code. 
+
 # [Use the generate() method to copy resources from packages¶](https://docs.conan.io/2/tutorial/consuming_packages/the_flexibility_of_conanfile_py.html#use-the-generate-method-to-copy-resources-from-packages)
 
 example:

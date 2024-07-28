@@ -7,5 +7,5 @@ https://conan.io/
 https://conan.io/center
 
 # Doc:
-https://docs.conan.io/2/index.html
+https://docs.conan.io/2/
 

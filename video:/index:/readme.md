@@ -1,1 +1,2 @@
+- [Conan 2.0 | C++ Package Manager - A detailed introduction](https://youtu.be/7sLeMVUo8Kg)
 - [Introduction to Conan 2 - The Best C++ Package Manager?](https://youtu.be/U-_RbUqDSTc)

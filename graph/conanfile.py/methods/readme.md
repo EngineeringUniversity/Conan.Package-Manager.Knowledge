@@ -4,7 +4,7 @@ https://docs.conan.io/2/tutorial/consuming_packages/the_flexibility_of_conanfile
 
 >There’s no need to always write this logic in the conanfile.py. There are some pre-defined layouts you can import and directly use in your recipe. For example, for the CMake case, there’s a cmake_layout() already defined in Conan:
 
-```
+```python
 from conan.tools.cmake import cmake_layout
 
 class CompressorRecipe(ConanFile):
